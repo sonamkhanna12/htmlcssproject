@@ -1,0 +1,195 @@
+
+#logo{
+    height: 56px;
+margin: 34px 45px;
+}
+#logo img{
+    height: 50px;
+    margin: 3px 6px;
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 100px;
+    color: blueviolet;    
+}
+.h2{
+    font-size: 50px;
+    color: red;
+}
+#navbar{
+    position: relative;
+}
+#navbar ul {
+    display: flex;
+}
+#navbar ::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 50px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+background-color: aliceblue;
+}
+.s2.container{
+    display: flex;
+    background-image: url(ty.jpg);
+    margin-bottom: 80px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+    padding-top: 40px;
+    
+}
+.mim{
+    width: 350px;
+    padding-left: 180px;
+    display: block;
+}
+.s1.container{
+    display: flex;
+    background-color: turquoise;
+
+}
+.er{
+    display: flex;
+}
+.half-width align-left{
+     margin: 70px;
+
+
+}
+.align-left{
+    padding-left: 650px;
+    margin: auto;
+}
+
+
+.link-button {
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.half-width midtext{
+    width: 500px ;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+h2{
+    font-size: 40px;
+    color: grey;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+.axc{
+    background-color: green;
+    text-emphasis-color: white;
+
+    -webkit-text-fill-color: tomato;
+}
+.green{
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: tomato;
+}
+.s3.container{
+margin-bottom:100px;
+}
+section{
+    display: block;
+}
+.social{
+    display: flex;
+    width: 92%;
+    box-shadow: 7px 7px 45px gray;
+    margin-left: 5%;
+    border-radius: 25px;
+}
+.follower{
+    width: 20%;
+    margin-left: 12%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+h3 ,h2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.follower h3{
+    margin-bottom: -10px;
+    font-size: 30px;
+}
+.fan{
+    display: flex;
+    width: 92%;
+}
+.client , .pro{
+    width: 25%;
+    box-shadow: 7px 7px 45px green ;
+    margin-left: 6%;
+    padding: 15px 15px;
+    border-radius: 25px;
+    margin-bottom: 2%;
+}
+div{ display: block;}
+.client a{
+    text-decoration: none;
+    color: black;
+}
+a:-webkit-any-link{
+    cursor:pointer;
+}
+.ha{
+    text-align: center;
+    border-radius: 2px grey;
+    background-image: url(ty.jpg);
+    height: 35%;
+}
+h3,h2{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.client img{
+    width: 100%;
+    border-radius: 50%;
+}
+.sd ,.ser{
+    text-align: center;
+}
+.res{
+    display: flex;
+}
